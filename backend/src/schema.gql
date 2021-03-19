@@ -1,0 +1,33 @@
+type User {
+    email: String! @id
+    first_name: String!
+    last_name: String
+    role: Role!
+    current_workout: Workout!
+    completed_workouts: [Workout]
+    subscription_history: Subscription
+}
+
+type Role {
+    name: String!
+    description: String!
+}
+
+type Workout {
+    intervals: [Interval]!
+}
+
+type Interval {
+    movement: Movement!
+    seconds: Int!
+}
+
+type Movement {
+    name: String!
+    gif: String!
+}
+
+type Subscription {
+    type: String!
+    purchased_on: DateTime
+}

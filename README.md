@@ -64,9 +64,15 @@ This is the most simplistic graph data model possible for the initial release of
 
 ✅ Define the graph data model
 
-☑️ Deploy the Slash backend
+✅ Deploy the Slash backend
 
-☑️ Define the v1.0 schema
+| Env | URL |
+| --- | --- |
+| Prod | https://blue-mountain.us-west-2.aws.cloud.dgraph.io/graphql |
+| Staging | // TODO: setup staging env |
+| Dev | // TODO: setup dev env |
+
+✅ Define the [v1.1 schema](./backend/src/schema.gql)
 
 ☑️ Setup a graphical query tool (Postman, GraphiQL)
 
