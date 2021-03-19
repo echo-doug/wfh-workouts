@@ -5,7 +5,7 @@ type User {
     role: Role!
     current_workout: Workout!
     completed_workouts: [Workout]
-    subscription_history: Subscription
+    subscription_history: [SubscriptionPurchase]
 }
 
 type Role {
@@ -27,7 +27,7 @@ type Movement {
     gif: String!
 }
 
-type Subscription {
+type SubscriptionPurchase {
     type: String!
     purchased_on: DateTime
 }

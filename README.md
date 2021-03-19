@@ -48,9 +48,9 @@ Users will authenticate with either Auth0 or the native Dgraph Authentication me
 
 ## Graph Data Model
 
-This is the most simplistic graph data model possible for the initial release of v1.0.
+This is the most simplistic graph data model possible that gets us to the release of v1.1.
 
-![Data Model](docs/images/graph-model.png)
+![Data Model](docs/images/graph-model-v1.1(1).png)
 
 ## Design
 
@@ -88,7 +88,7 @@ This is the most simplistic graph data model possible for the initial release of
 
 ---
 
-☑️ Create a UX mockup of the v1.0 app in Sketch
+☑️ Create a UX mockup of the v1.1 app in Sketch
 
 ☑️ Implement the mockups in React-Native
 
