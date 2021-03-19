@@ -35,7 +35,7 @@ We will use Slash GraphQL as our API backend and cloud database, and we will use
 
 Users will authenticate with either Auth0 or the native Dgraph Authentication mechanism, if there is one.
 
-![Technology](./docs/images/wfh-workouts.png)
+![Technology](docs/images/c4-system.png)
 
 ## Actors
   
@@ -48,11 +48,21 @@ Users will authenticate with either Auth0 or the native Dgraph Authentication me
 
 ## Graph Data Model
 
-TODO
+This is the most simplistic graph data model possible for the initial release of v1.0.
 
-## Development Phases
+![Data Model](docs/images/graph-model.png)
+
+## Design
+
+// TODO: Draft some app mockups.
+
+## Phases of Development
 
 ### Phase 1 - Setup the Slash GraphQL backend
+
+---
+
+✅ Define the graph data model
 
 ☑️ Deploy the Slash backend
 
@@ -62,15 +72,23 @@ TODO
 
 ### Phase 2 - Setup Authentication
 
+---
+
 ☑️ Integrate Auth0 or Dgraph authentication
 
+---
+
 ### Phase 3 - Design the Mobile App
+
+---
 
 ☑️ Create a UX mockup of the v1.0 app in Sketch
 
 ☑️ Implement the mockups in React-Native
 
 ### Phase 4 - Integrate the API
+
+---
 
 ☑️ Make calls to the Slash GraphQL backend
 
@@ -79,6 +97,8 @@ TODO
 ☑️ Testing and deployment
 
 ### Phase 5 - Monetize (iOS-only)
+
+---
 
 ☑️ Configure in-app purchases
 
