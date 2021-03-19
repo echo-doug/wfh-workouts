@@ -74,7 +74,7 @@ This is the most simplistic graph data model possible that gets us to the releas
 
 ✅ Define the [v1.1 schema](./backend/src/schema.gql)
 
-☑️ Setup a graphical query tool (Postman, GraphiQL)
+✅ Setup a graphical query tool (Postman, GraphiQL)
 
 ### Phase 2 - Setup Authentication
 
